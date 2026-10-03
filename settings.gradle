@@ -1,1 +1,4 @@
 rootProject.name = 'flightway'
+
+include("core-lib")
+project(":core-lib").projectDir = file("./../atlas-flight-core-lib")
